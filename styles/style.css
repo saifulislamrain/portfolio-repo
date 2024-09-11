@@ -41,6 +41,7 @@ background: #FD6E0A;
 color: white;
 font-size: 20px;
 padding: 18px 35px;
+/* margin-top: 50px; */
 /* font-style: normal; */
 font-weight: 700;
 padding: 18px 35px;
@@ -49,10 +50,16 @@ border: 0px;
 /* header styles */
 .header{
     background-color: #FFF8F3;
+    background-image: url('../media/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 /* text color relatad */
 .gray{
     color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
 }
 /* banner related */
 .banner{
@@ -66,4 +73,42 @@ border: 0px;
 .profile-picture{
     height: 676px;
     width: 580px;
+}
+.bismillah{
+    font-weight: 600;
+    color: #474747;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.later-bismillah{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5PX;
+    margin-bottom: 0;
+}
+#bottom-btn01{
+    margin-top: 50px;
+}
+#bottom-btn02{
+    margin-top: 50px;
+}
+
+/* main sector css started */
+.aheading{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.about-description{
+    text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+color: #757575;
+}
+.about{
+   padding: 130px;
+   border-radius: 10px;
+   background: #FFF8F3;
+   margin: 130px 0;
 }
