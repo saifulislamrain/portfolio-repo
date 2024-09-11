@@ -136,9 +136,7 @@ nav a {
 }
 
 .info-title {
-    /* margin-right: 50px; */
-    /* justify-content: space-around; */
-    color: var(--Dark-03, #757575);
+    color: #757575;
     text-align: center;
     font-size: 20px;
     font-weight: 400;
@@ -151,4 +149,89 @@ nav a {
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
+}
+
+/* what i do part started */
+.what-i-do-container {}
+
+.what-i-do-header {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.what-i-do-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* width: 909px; */
+    /* 166.667% */
+    justify-content: center;
+    margin: 0 345px;
+
+}
+
+/* main tag margin css */
+main {
+    margin: 0 230px;
+}
+
+/* programming language and main last part css */
+.planguages {
+    display: flex;
+    margin-right: 25px;
+    justify-content: space-around;
+    margin: 50px 230px 0;
+    align-items: center;
+
+}
+
+.js {
+    width: 267px;
+    height: 377px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 10px 0 30px;
+}
+
+.React {
+    width: 267px;
+    height: 377px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 10px 0 30px;
+}
+
+.Nodejs {
+    width: 267px;
+    height: 377px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 10px 0 30px;
+}
+
+.Mongo {
+    width: 267px;
+    height: 377px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 10px 0 30px;
+}
+
+.icons {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
 }
