@@ -51,5 +51,19 @@ border: 0px;
     background-color: #FFF8F3;
 }
 /* text color relatad */
-/* image related */
-
+.gray{
+    color: #757575;
+}
+/* banner related */
+.banner{
+    /* margin: 185px 1193px 480px 265px; */
+    margin-left: 265px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.profile-picture{
+    height: 676px;
+    width: 580px;
+}
