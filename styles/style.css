@@ -57,9 +57,12 @@ nav a {
 /* header styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../media/images/header_bg.png');
+    background-image: url('../media/images/header_bg.png'), url('../media/images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+    /* background-position-y: 0px, center; */
+    /* background-position-x: 23px; */
+    /* background-image: url('../media/images/developer.png'); */
 }
 
 /* text color relatad */
